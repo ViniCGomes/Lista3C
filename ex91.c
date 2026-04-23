@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/* 
+Esse codigo nao contempla completamente, pois no caso de haverem 3 ou mais repeticoes, havera impressao 
+novamente delas. Ex 1 3 1 4 1  ,  pos 1 -> 1na 3 e 1 na 5  pos 3 -> 1 na 5 , logo faz de novo
+*/
 int main(){
     int VET[50];
     for(int i=0;i<50;i++){
